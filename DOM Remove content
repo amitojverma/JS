@@ -1,0 +1,7 @@
+var l = document.querySelectorAll('.remove');
+	Array.from(l).forEach(function(l){
+		l.addEventListener('click', function(e){
+		const g = document.querySelector('.product');
+		g.parentNode.removeChild(g);
+	});
+	});
